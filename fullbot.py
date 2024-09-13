@@ -11,7 +11,7 @@ logger.setLevel(logging.DEBUG)
 handler = logging.StreamHandler()
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
-TOKEN = "MTA4NzQxMjE5MzAxMzgwNTEwOA.GJ9Joi.fkbbdwDsdK0VSSshF9vvalZEtVRQoeBih9VTEY"
+TOKEN = "here his token"
 class YLBotClient(discord.Client):
     async def on_ready(self):
         logger.info(f'{self.user} has connected to Discord!')
